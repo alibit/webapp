@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('dev) {
             steps {
-                git 'https://github.com/alibit/webapp.git'
+                echo 'hello from web app'
             }
         }
 
