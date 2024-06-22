@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('dev) {
             steps {
                 git 'https://github.com/alibit/webapp.git'
             }
